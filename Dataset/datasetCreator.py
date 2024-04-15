@@ -6,7 +6,7 @@ import numpy as np
 
 def evaluateBoard(board, depth=15):
     # Path to the Stockfish executable
-    stockfish_path = "stockfish/stockfish-windows-x86-64-avx2.exe"
+    stockfish_path = "./stockfish/src/stockfish"
     
     # Initialize the chess engine
     engine = chess.engine.SimpleEngine.popen_uci(stockfish_path)

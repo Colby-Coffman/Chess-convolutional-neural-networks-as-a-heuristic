@@ -103,4 +103,4 @@ columns_to_reshape = ['posiciones','pawns', 'knights', 'bishops', 'rooks', 'quee
 for col in columns_to_reshape:
     data[col] = data[col].apply(reshape_to_matrix)
 
-data.to_json('MatrizPosiciones.json')
+data.to_json('MatrizPosiciones2.json')
